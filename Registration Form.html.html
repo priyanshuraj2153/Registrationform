@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+           <style type="text/css">
+               #main-header{
+                   text-align:center;
+                   background-color: rgb(24, 195, 218);
+                   color: black;
+                   padding:10px; 
+               }
+
+                     #main-form{
+                         text-align: center;       
+                         color: black;   
+                         font-size:20px; 
+                        }
+        
+                #main-footer{
+                    text-align: center;
+                    font-size:15px;     
+                }
+
+       
+           </style>
+
+
+    </head>
+
+    <body>
+
+        <header id="main-header">
+            <h1><u>Registration Form</u></h1>  
+        </header>
+            
+
+        <br>
+        <hr>
+        <br> 
+
+      <form id="main-form" action="process.php" method="POST">
+
+          <div>
+              <label><b>Name : </b></label>
+              <input type="text" name="Name" placeholder="Enter your name">
+            </div>
+
+              <br>
+
+          <div>
+              <label><b>Username : </b></label>
+              <input type="text" name="Username" placeholder="Enter your username">
+        </div> 
+
+              <br>
+          
+            <div>
+                <label><b>Gender : </b></label>
+                <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>  
+                </select>  
+             </div>
+
+                 <br> 
+         
+            <div>
+                <label><b>D.O.B : </b></label>  
+                <input type="date" name="d.o.b">   
+            </div>
+
+                 <br>
+
+           <div>
+              <label><b>Email : </b></label>  
+              <input type="email" name="email" placeholder="Enter your email-id">
+            </div>
+
+              <br>
+
+          <div>
+              <label><b>Password : </b></label>
+              <input type="text" name="password" placeholder="Enter your password">
+            </div>
+
+              <br>
+
+              <div>
+                <input type="submit" name="submit" value="Submit"> 
+            </div> 
+
+        </form>     
+         
+        <br>
+        <hr>
+        
+         
+        <footer id="main-footer">  
+            <p>
+                copyright &copy; | Priyanshu Raj (2021UGEE068) | All Rights Reserved
+            </p>
+        </footer> 
+          
+        <hr>
+ 
+    </body>
+</html>  
+      
